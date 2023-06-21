@@ -321,7 +321,7 @@
 // let a=79;
 // let b=30;
 // let c=93;
-// console.log((a>b && a>c)? ("A is Greater"):(b>c)?("B is Greater"):("C is Greater"));//C is Greater
+// console.log((a>b && a>c)? ("A is Greater"):(b>c && b>a)?("B is Greater"):("C is Greater"));//C is Greater
 
 
 
