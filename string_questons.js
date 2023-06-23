@@ -143,7 +143,7 @@
 //  const sentence = "JavaScript is fun!";
 // console.log(sentence.startsWith("Java"));//true
 
-/  const sentence = "JavaScript is versatile!";
+// const sentence = "JavaScript is versatile!";
 // console.log(sentence.split(" ").reverse().join(" "));//
 
 
