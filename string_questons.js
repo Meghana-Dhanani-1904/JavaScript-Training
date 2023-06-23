@@ -2,11 +2,7 @@
 // console.log(sentence.lastIndexOf("a", 12));//doubt
 
 //  const sentence = "JavaScript is flexible!";
-// console.log(sentence.charAt(sentence.length - 1));//doubt
-
-//  const sentence = "JavaScript is versatile!";
-// console.log(sentence.split(" ").reverse().join(" "));//doubt
-
+// console.log(sentence.charAt(sentence.length - 1));//doubt
 
 // Which string method is used to determine the length of a string?//length
 
@@ -146,6 +142,11 @@
 
 //  const sentence = "JavaScript is fun!";
 // console.log(sentence.startsWith("Java"));//true
+
+/  const sentence = "JavaScript is versatile!";
+// console.log(sentence.split(" ").reverse().join(" "));//
+
+
 
 //  const str = "Hello, World!";
 // console.log(str.endsWith("!"));//true
