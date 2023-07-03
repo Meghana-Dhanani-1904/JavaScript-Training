@@ -6,8 +6,8 @@
 //   { first_name: "Erpso", last_name: "Loal" },
 //   { first_name: "Demors", last_name: "Poet" },
 //   { first_name: "Aleos", last_name: "Lkeu" },
-// const newProperty = names.map((name) => {
-//   return { ...name, full_name: name.first_name + " " + name.last_name };
+// const newProperty = names.map((full-name) => {
+//   return { ...name, full_name: full-name.first_name + " " + full-name.last_name };
 });
 
 // const sum = (num1, num2) => {
