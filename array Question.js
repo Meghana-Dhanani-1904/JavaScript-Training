@@ -6,8 +6,9 @@
 //   { first_name: "Erpso", last_name: "Loal" },
 //   { first_name: "Demors", last_name: "Poet" },
 //   { first_name: "Aleos", last_name: "Lkeu" },
-// ].map((v) => ({ ...v, fullName: "abc"}));
-// console.log(names);
+// const newProperty = names.map((name) => {
+//   return { ...name, full_name: name.first_name + " " + name.last_name };
+});
 
 // const sum = (num1, num2) => {
 //   return num1 + num2;
