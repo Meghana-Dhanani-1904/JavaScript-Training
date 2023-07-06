@@ -432,3 +432,167 @@
 // }, {});
 // console.log(result);
 
+//22
+
+// Find the Sum of Squares
+// let arr = [1, 2, 3, 4, 5];
+
+// let result = arr.reduce(function (acc, curr) {
+//   let sum = acc + curr ** 2;
+//   return sum;
+// }, 0);
+// console.log(result);
+
+//24
+// => flat this array using reduce (NOTE: array will be only depth 1)
+
+// const nestedArray = [
+//   [1, 2],
+//   [3, 4],
+//   [5, 6],
+// ];
+
+// let result = nestedArray.reduce(function (acc, curr) {
+//   return acc.concat(curr);
+// }, []);
+// console.log(result);
+
+//Create an array of squares of even numbers from a given array.
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// let result = numbers.reduce(function (acc, curr) {
+//   if (curr % 2 == 0) {
+//     acc .push(curr ** 2);
+//   }
+//   return acc;
+// }, []);
+
+// console.log(result);
+
+// Filter out duplicate values from an array.
+// const numbers = [1, 2, 2, 3, 4, 4, 5];
+
+// let result = numbers.reduce(function (acc, curr) {
+//   if (!acc.includes(curr)) {
+//     acc.push(curr);
+//   }
+//   return acc;
+// }, []);
+// console.log(result);
+
+// Find the first string that contains the letter 'a' in an array.
+// const words = ["apple", "anana", "orange"];
+// 1st Method
+
+// let result = words.reduce(function (acc, curr) {
+//   if (curr.startsWith("a")) {
+//     return curr;
+//   }
+//   return acc;
+// }, []);
+// console.log(result);
+
+// const words = ["apple", "banana", "orange", "angstrom"];
+// function startWithA(arr) {
+//   let res = arr.reduce((acc, curr) => {
+//     if (curr.charAt(0) === "a") {
+//       console.log(curr);
+//     }
+//   }, );
+//   return res;
+// }
+// startWithA(words);
+
+//2nd Method
+
+// const result = words.find("a");
+// console.log(result);
+
+//29
+
+// Find the index of the first odd number in an array.
+// const numbers = [2, 6, 8, 9, 10];
+
+// let result = numbers.reduce(function (acc, curr, inde) {
+//   if (curr % 2 !== 0) {
+//     return inde;
+//   }
+//   return acc;
+// });
+// console.log(result);
+
+// function fac(n) {
+//   if (n == 0 || n == 1) {
+//     return 1;
+//   } else {
+//     return n * fac(n - 1);
+//   }
+// }
+// console.log(fac(4));
+
+//31
+
+// Find the index of the first person whose name starts with 'A' and age is less than 20.
+// const people = [
+//   { name: 'Alice', age: 18 },
+//   { name: 'Bob', age: 20 },
+//   { name: 'Charlie', age: 19 },
+//   { name: 'David', age: 21 }
+// ]
+
+// const words = ['apple', 'banana', 'orange','angstrom'];
+// function startWithA(arr) {
+//     let res = arr.reduce((acc,curr)=>{
+//         if (curr.charAt(0) === 'a') {
+//             console.log(curr);
+//         }
+//     },"");
+//     return res
+// }
+// startWithA(words);
+
+// const foundWord = words.reduce((acc, curr) => {
+//   if (!acc && curr.includes("a")) {
+//     return curr;
+//   }
+//   return acc;
+// }, null);
+
+// Find the index of the first person whose name starts with 'A' and age is less than 20.
+// const people = [
+//   { name: "Alice", age: 18 },
+//   { name: "Bob", age: 20 },
+//   { name: "Charlie", age: 19 },
+//   { name: "David", age: 21 },
+// ];
+
+// let result = people.reduce(function (acc, curr) {
+//   if (curr.name.charAt(0) === "A" && curr.age <= 30) {
+//     return curr;
+//   }
+//   return acc;
+// }, -1);
+
+// console.log(result);
+
+// const products = [
+//   { name: "Product 1", price: 20, category: "Electronics" },
+//   { name: "Product 2", price: 30, category: "Clothes" },
+//   { name: "Product 3", price: 40, category: "Electronics" },
+//   { name: "Product 4", price: 50, category: "Clothes" },
+//   { name: "Product 5", price: 60, category: "Clothes" },
+//   { name: "Product 6", price: 70, category: "Electronics" },
+//   { name: "Product 7", price: 80, category: "Clothes" },
+//   { name: "Product 8", price: 90, category: "Electronics" },
+//   { name: "Product 8", price: 90, category: "Electro" },
+// ];
+
+// let result = products.reduce(function (acc, curr) {
+//   if (acc[curr.category]) {
+//     acc[curr.category] = ++acc[curr.category];
+//   } else {
+//     acc[curr.category] = 1;
+//   }
+//   return acc;
+// }, {});
+// console.log(result);
