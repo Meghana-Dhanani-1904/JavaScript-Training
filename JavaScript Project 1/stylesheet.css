@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(63, 62, 62);
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 60%;
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  align-items: center;
+}
+.button {
+  width: 33.3%;
+  height: 100%;
+  /* background-color: rgb(225, 139, 26); */
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 2px 20px 5px 3px rgb(67, 67, 67);
+}
+#darkcyan {
+  background-color: rgb(194, 114, 219);
+}
+#green {
+  background-color: rgb(115, 201, 226);
+}
+#orange {
+  background-color: rgb(141, 141, 239);
+}
